@@ -1,0 +1,138 @@
+@media all and (max-width:425px){
+    /* aca tengo que modificar navbar, carrusel, banner y footer */
+    header {
+        width: 420px;
+        height: 70px;
+        background-color: $background-segundario;
+        display: flex;
+        align-items: center;
+        padding: 0px 10px;
+        align-content: center;
+        justify-content: flex-start;
+        gap: 70px;
+        margin: 2px 1px 1px 2px;
+        border-style: solid;
+        border-color: $background-principal;
+        position: fixed;
+    }
+    .logo{ 
+        display: none;
+    }
+    
+    nav .navbar{
+        display: none;
+
+    }
+
+    .menu-respon{
+        width: 30px;
+        height: auto;
+        margin-right: 10px;
+    }
+    
+    nav .navbar-responsive{
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: block;
+        padding: 0px 10px;
+    }
+    
+    .menu-responsive{
+        position: fixed;
+        list-style: none;
+        background-color: rgba(0, 0, 0, .9);
+        width: 45%;
+        display: none;
+        justify-content: center;
+        padding: 3px ;
+        margin: 14px 0px 0px 5px;
+        text-align: center;
+        height: calc(100% - 70px);
+        overflow-y: auto;
+        
+        left: 100%;
+        transition: all 0.5s;
+    }
+    .checkbtn{
+        cursor: pointer;
+    }
+    #check{
+        display: none;
+    }
+
+    .menu-responsive li{
+        display: block;
+        margin: 20px;
+        padding: inherit;
+        line-height: 30px;
+        margin-top: 80px;
+
+    }
+
+    ul li a {
+        font-family: "Montserrat", sans-serif;
+        text-decoration: none;
+        color: $background-segundario;
+        font-size: 20px;
+        font-weight: bolder;
+        color: #fff;
+        text-shadow:
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 40px rgb(127, 146, 146),
+            0 0 80px rgb(0, 0, 0),
+            0 0 90px rgb(0, 0, 0),
+            0 0 100px rgb(158, 170, 170),
+            0 0 150px rgb(25, 29, 29);
+    }
+
+    .menu-responsive li a:hover, .menu-responsive li a.active{
+        background: none;
+    }
+
+    #check:checked ~ .menu-responsive{
+        left: 0;
+    }
+
+    .navbar-responsive .menu-responsive{
+        display: block;
+        /* margin-top: 52px;  */
+    }
+
+    .logo-respon{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .iconos{
+        margin: 3px;
+    }
+
+
+
+
+    /* NEW IN  */
+
+    .newin-box {
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 3px;
+        padding: 0px 0px 0px 0px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: center;
+        max-width: 425px;
+    }
+
+    .newin-box {
+        background-color: $background-segundario;
+        height: auto;
+    }
+
+    .card-newin {
+    margin-bottom: 114px;
+    }
+}

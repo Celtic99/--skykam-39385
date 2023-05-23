@@ -1,0 +1,64 @@
+
+header{
+    background-color: $background-principal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+
+.logo{
+    padding: 5px 0px 9px 30px;
+    width: 220px;
+    margin-right: 100px;
+}
+
+.navbar li a{
+    font-family: 'Rubik Spray Paint', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    margin: 1px;
+
+}
+.navbar li{
+    display: inline block;
+
+}
+
+.navbar li a:hover{
+    color: #8b8b8b;
+}
+
+nav .navbar-responsive{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+ul li a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.logo-respon{
+    display: none;
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    margin-left: 50px;
+}
+
+

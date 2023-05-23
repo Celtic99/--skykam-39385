@@ -1,0 +1,638 @@
+/***** variables *****/ /*** genera un bloque de codigo css el cual puede ser reutilizable ***/
+/* si lo quiero llamar uso @include flex */
+/**elementos que componen al reset o lo que gerera dentro de mi codigo**/
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**tipografias**/ /**todo lo relacionado con bootstrap**/
+header {
+  background-color: #1D1D1D;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+
+.logo {
+  padding: 5px 0px 9px 30px;
+  width: 220px;
+  margin-right: 100px;
+}
+
+.navbar li a {
+  font-family: "Rubik Spray Paint", cursive;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 26px;
+  margin: 1px;
+}
+
+.navbar li {
+  display: inline block;
+}
+
+.navbar li a:hover {
+  color: #8b8b8b;
+}
+
+nav .navbar-responsive {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+ul li a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.logo-respon {
+  display: none;
+}
+
+.iconos {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  margin-left: 50px;
+}
+
+main div {
+  background-color: #1D1D1D;
+}
+
+.banner {
+  max-width: 100%;
+}
+
+/* CATEGORIAS */
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+
+.c-imagen {
+  max-width: 100%;
+}
+
+.primeras {
+  margin-top: 100px;
+}
+
+.separador-linea {
+  width: 900px;
+}
+
+.separador div {
+  display: flex;
+}
+
+.separador div {
+  background-color: #ffffff;
+}
+
+/* ENLACES */
+.enlaces a {
+  background-color: #ffffff;
+  color: #1D1D1D;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* PIE DE PAGINA */
+footer {
+  width: 100%;
+  background-color: #1D1D1D;
+}
+
+.logo-footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.follow {
+  justify-content: center;
+  padding: 10px;
+}
+
+.texto h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Rubik Spray Paint", cursive;
+  color: #8b8b8b;
+  line-height: 5px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  display: grid;
+  gap: 1rem;
+  column-gap: 12px;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.box1-pagos {
+  max-width: 100px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 150px;
+  margin-top: 32px;
+  column-gap: 1px;
+  row-gap: 3px;
+}
+
+.box2-envios {
+  max-width: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 35px;
+  column-gap: 1px;
+  row-gap: 3px;
+  margin-top: 1px;
+}
+
+.icon-footer {
+  width: 50px;
+}
+
+.box1 h2, .box2 h2, .box3 h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.box3 h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* CONTACTO */
+fieldset {
+  width: 10px;
+  display: flex;
+  background-color: #ffffff;
+  padding: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+button, input {
+  font-size: 100%;
+  font-size: 20px;
+  font-style: bold;
+}
+
+form {
+  width: 1100px;
+  padding: 0;
+  margin: 150px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  color: #ffffff;
+}
+
+/* FAQS */
+.contenedor-pregs {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contenedor-pregs h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.pregs {
+  background-color: #ffffff;
+}
+
+.pregs label {
+  display: block;
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.btn-pregs {
+  display: none;
+}
+
+.pregs .contenido-pregs {
+  padding: 0px;
+  margin: 0px 20px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+.btn-pregs:checked ~ .contenido-pregs {
+  max-height: 600px;
+  padding: 15px 0px;
+}
+
+/* NEW IN */
+.newin-box {
+  background-color: #ffffff;
+  height: 1000px;
+}
+
+.newin-box {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 50px;
+  margin-top: 100px;
+  padding: 0px 0px 0px 400px;
+}
+
+.card-newin {
+  margin-top: 100px;
+  width: 200px;
+  height: 300px;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.conteiner-card {
+  text-align: start;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 15px;
+  max-block-size: 100px;
+}
+
+.name_clothes {
+  font-size: 25px;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  text-align: start;
+  margin-top: 8px;
+}
+
+@media all and (max-width: 1024px) {
+  header {
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 25px;
+    flex-direction: row;
+  }
+  .logo {
+    padding: 6px 21px 5px 12px;
+    width: 189px;
+    margin-right: 72px;
+  }
+  .navbar {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5em;
+    flex-direction: row;
+    align-content: center;
+  }
+}
+@media all and (max-width: 768px) {
+  header {
+    width: 768px;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 10px;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 1px;
+  }
+  .logo {
+    padding: 5px 15px 6px 6px;
+    width: 153px;
+    margin-right: 34px;
+  }
+  .navbar li a {
+    font-family: "Rubik Spray Paint", cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .navbar {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5em;
+    flex-direction: row;
+    align-content: center;
+  }
+  /* NEW IN */
+  .newin-box {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 50px;
+    margin-top: 8px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 0px 10px 60px 10px;
+  }
+  .name_clothes {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 8px;
+    color: #000000;
+  }
+}
+@media all and (max-width: 425px) {
+  /* aca tengo que modificar navbar, carrusel, banner y footer */
+  header {
+    width: 420px;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 70px;
+    margin: 2px 1px 1px 2px;
+    border-style: solid;
+    border-color: #1D1D1D;
+    position: fixed;
+  }
+  .logo {
+    display: none;
+  }
+  nav .navbar {
+    display: none;
+  }
+  .menu-respon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+  nav .navbar-responsive {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+    padding: 0px 10px;
+  }
+  .menu-responsive {
+    position: fixed;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 45%;
+    display: none;
+    justify-content: center;
+    padding: 3px;
+    margin: 14px 0px 0px 5px;
+    text-align: center;
+    height: calc(100% - 70px);
+    overflow-y: auto;
+    left: 100%;
+    transition: all 0.5s;
+  }
+  .checkbtn {
+    cursor: pointer;
+  }
+  #check {
+    display: none;
+  }
+  .menu-responsive li {
+    display: block;
+    margin: 20px;
+    padding: inherit;
+    line-height: 30px;
+    margin-top: 80px;
+  }
+  ul li a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px rgb(127, 146, 146), 0 0 80px rgb(0, 0, 0), 0 0 90px rgb(0, 0, 0), 0 0 100px rgb(158, 170, 170), 0 0 150px rgb(25, 29, 29);
+  }
+  .menu-responsive li a:hover, .menu-responsive li a.active {
+    background: none;
+  }
+  #check:checked ~ .menu-responsive {
+    left: 0;
+  }
+  .navbar-responsive .menu-responsive {
+    display: block;
+    /* margin-top: 52px;  */
+  }
+  .logo-respon {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .iconos {
+    margin: 3px;
+  }
+  /* NEW IN  */
+  .newin-box {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 3px;
+    padding: 0px 0px 0px 0px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 425px;
+  }
+  .newin-box {
+    background-color: #ffffff;
+    height: auto;
+  }
+  .card-newin {
+    margin-bottom: 114px;
+  }
+}
+@media (max-width: 320px) {
+  header {
+    width: 315px;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 40px;
+    margin: 2px 1px 1px 2px;
+    border-style: solid;
+    border-color: #1D1D1D;
+    position: fixed;
+  }
+  .logo {
+    display: none;
+  }
+  nav .navbar {
+    display: none;
+  }
+  .menu-respon {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+  }
+  nav .navbar-responsive {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+    padding: 0px 10px;
+  }
+  .menu-responsive {
+    position: fixed;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 45%;
+    display: none;
+    justify-content: center;
+    padding: 3px;
+    margin: 14px 0px 0px 5px;
+    text-align: center;
+    height: calc(100% - 70px);
+    overflow-y: auto;
+    left: 100%;
+    transition: all 0.5s;
+  }
+  .checkbtn {
+    cursor: pointer;
+  }
+  #check {
+    display: none;
+  }
+  .menu-responsive li {
+    display: block;
+    margin: 20px;
+    padding: inherit;
+    line-height: 30px;
+    margin-top: 80px;
+  }
+  ul li a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px rgb(127, 146, 146), 0 0 80px rgb(0, 0, 0), 0 0 90px rgb(0, 0, 0), 0 0 100px rgb(158, 170, 170), 0 0 150px rgb(25, 29, 29);
+  }
+  .menu-responsive li a:hover, .menu-responsive li a.active {
+    background: none;
+  }
+  #check:checked ~ .menu-responsive {
+    left: 0;
+  }
+  .navbar-responsive .menu-responsive {
+    display: block;
+    /* margin-top: 52px;  */
+  }
+  .logo-respon {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-left: 3px;
+  }
+  .iconos {
+    margin: 0px;
+  }
+  /* NEW IN  */
+  .newin-box {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 3px;
+    padding: 0px 0px 0px 0px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 425px;
+  }
+  .newin-box {
+    background-color: #ffffff;
+    height: auto;
+  }
+  .card-newin {
+    margin-bottom: 114px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

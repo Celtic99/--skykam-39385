@@ -1,0 +1,35 @@
+@media all and (max-width:1024px){
+    header {
+        width: 1024px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 25px;
+        flex-direction: row;
+    }
+
+    .logo {
+        padding: 6px 21px 5px 12px;
+        width: 189px;
+        margin-right: 72px;
+    }
+
+    .navbar {
+        margin: auto;
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .categorias {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:flex-end;
+        gap:5em;
+        flex-direction:row;
+        align-content:center;
+    }
+}

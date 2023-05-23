@@ -1,0 +1,50 @@
+main div{
+    background-color: #1D1D1D;
+}
+
+.banner{
+    max-width: 100%;
+}
+
+/* CATEGORIAS */
+
+.categorias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+.c-imagen{
+    max-width: 100%;
+}
+
+.primeras{
+    margin-top: 100px;
+}
+
+.separador-linea{
+    width: 900px;
+}
+
+.separador div{
+    display: flex;
+}
+
+.separador div{
+    background-color: $background-segundario;
+}
+
+/* ENLACES */
+
+.enlaces a{
+    background-color: $background-segundario;
+    color: $background-principal;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    
+    gap: 40px;
+    font-family: 'Montserrat', sans-serif;
+    
+}

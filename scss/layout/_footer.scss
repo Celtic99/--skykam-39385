@@ -1,0 +1,85 @@
+/* PIE DE PAGINA */
+
+footer{
+    width: 100%;
+    background-color: $background-principal;
+    
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center ;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.follow{
+    justify-content: center;
+    padding: 10px ;
+}
+
+.texto h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Rubik Spray Paint', cursive;
+    color: #8b8b8b;
+    line-height: 5px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    display: grid;
+    gap: 1rem;
+    column-gap: 12px;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+
+.box1-pagos{
+    max-width: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+    margin: 150px;
+    margin-top: 32px;
+    column-gap: 1px;
+    row-gap: 3px;
+}
+
+
+.box2-envios{
+    max-width: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 35px;
+    column-gap: 1px;
+    row-gap: 3px;
+    margin-top: 1px;
+}
+
+.icon-footer{
+    width: 50px;
+}
+
+
+.box1 h2 , .box2 h2 , .box3 h2{
+    font-family: 'Montserrat', sans-serif;
+    color: $background-segundario;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box3 h3{
+    font-family: 'Montserrat', sans-serif;
+    color: $background-segundario;
+    font-size: 15px;
+    text-align: center;
+}

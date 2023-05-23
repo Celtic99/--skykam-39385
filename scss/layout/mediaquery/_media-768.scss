@@ -1,0 +1,67 @@
+@media all and (max-width:768px){
+    header {
+        width: 768px;
+        display: flex;
+        justify-content: space-around;
+        padding: 12px 10px;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 1px;
+    }
+
+    .logo {
+        padding: 5px 15px 6px 6px;
+        width: 153px;
+        margin-right: 34px;
+    }
+
+    
+    .navbar li a{
+        font-family: 'Rubik Spray Paint', cursive;
+        font-weight: 500;
+        font-size: 16px;
+        color: $background-segundario;
+        text-decoration: none;
+    }
+    .navbar {
+        margin: auto;
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .categorias {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:flex-end;
+        gap:5em;
+        flex-direction:row;
+        align-content:center;
+    }
+
+     /* NEW IN */
+
+    .newin-box {
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 50px;
+        margin-top: 8px;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        padding: 0px 10px 60px 10px;
+    }
+
+    .name_clothes{
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 8px;
+        color: #000000;
+    }
+    
+}

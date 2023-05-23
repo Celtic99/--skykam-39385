@@ -1,0 +1,33 @@
+/* CONTACTO */
+
+fieldset{
+    width: 10px;
+    display: flex;
+    background-color:$background-segundario;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+button, input{
+    font-size: 100%;
+    font-size: 20px;
+    font-style: bold;
+}
+
+form{
+    width : 1100px;
+    padding: 0;
+    margin: 150px;
+    box-sizing: border-box;
+    background-color: $background-segundario;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    color: $background-segundario;
+}
+

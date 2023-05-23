@@ -1,0 +1,30 @@
+/*** genera un bloque de codigo css el cual puede ser reutilizable ***/
+
+@mixin flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* si lo quiero llamar uso @include flex */
+
+@mixin nav-re {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px rgb(127, 146, 146),
+        0 0 80px rgb(0, 0, 0),
+        0 0 90px rgb(0, 0, 0),
+        0 0 100px rgb(158, 170, 170),
+        0 0 150px rgb(25, 29, 29);
+}
