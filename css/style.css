@@ -11,6 +11,7 @@
 
 /**tipografias**/ /**todo lo relacionado con bootstrap**/
 header {
+  z-index: 1;
   background-color: #1D1D1D;
   display: flex;
   align-items: center;
@@ -96,7 +97,7 @@ main div {
   margin-top: 100px;
 }
 
-.separador-linea {
+.separador-linea, .separador-linea2 {
   width: 900px;
 }
 
@@ -109,6 +110,13 @@ main div {
 }
 
 /* ENLACES */
+.enlaces {
+  display: flex;
+  gap: 32px;
+  margin-left: 80px;
+  margin-top: 45px;
+}
+
 .enlaces a {
   background-color: #ffffff;
   color: #1D1D1D;
@@ -117,6 +125,14 @@ main div {
   display: flex;
   gap: 40px;
   font-family: "Montserrat", sans-serif;
+}
+
+.enlaces {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 64px;
+  gap: 12px;
 }
 
 /* PIE DE PAGINA */
@@ -134,7 +150,8 @@ footer {
 
 .follow {
   justify-content: center;
-  padding: 10px;
+  padding: 1px;
+  margin-bottom: 153px;
 }
 
 .texto h2 {
@@ -192,6 +209,10 @@ footer {
   color: #ffffff;
   font-size: 20px;
   text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
 }
 
 .box3 h3 {
@@ -283,17 +304,21 @@ h2 {
   padding: 15px 0px;
 }
 
+.contenedor-pregs {
+  margin-bottom: 180px;
+}
+
 /* NEW IN */
 .newin-box {
   background-color: #ffffff;
-  height: 1000px;
+  height: 1560px;
 }
 
 .newin-box {
   display: flex;
   flex-flow: row wrap;
-  column-gap: 50px;
-  margin-top: 100px;
+  column-gap: 200px;
+  margin-top: 0px;
   padding: 0px 0px 0px 400px;
 }
 
@@ -323,6 +348,16 @@ h2 {
   font-family: "Montserrat", sans-serif;
   text-align: start;
   margin-top: 8px;
+}
+
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 @media all and (max-width: 1024px) {
@@ -505,6 +540,27 @@ h2 {
   .iconos {
     margin: 3px;
   }
+  .separador-linea {
+    width: 425px;
+  }
+  .separador-linea2 {
+    display: none;
+  }
+  section.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    margin-top: 100px;
+  }
+  .primeras {
+    margin-top: 0px;
+  }
+  img.c-imagen {
+    width: 172px;
+    height: 283px;
+  }
   /* NEW IN  */
   .newin-box {
     display: flex;
@@ -523,6 +579,13 @@ h2 {
   }
   .card-newin {
     margin-bottom: 114px;
+  }
+  .name_clothes {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-align: start;
+    margin-top: 8px;
+    color: #000000;
   }
 }
 @media (max-width: 320px) {

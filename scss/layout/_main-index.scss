@@ -23,7 +23,7 @@ main div{
     margin-top: 100px;
 }
 
-.separador-linea{
+.separador-linea , .separador-linea2{
     width: 900px;
 }
 
@@ -37,6 +37,12 @@ main div{
 
 /* ENLACES */
 
+.enlaces {
+    display: flex;
+    gap: 32px;
+    margin-left: 80px;
+    margin-top: 45px;
+}
 .enlaces a{
     background-color: $background-segundario;
     color: $background-principal;
@@ -47,4 +53,12 @@ main div{
     gap: 40px;
     font-family: 'Montserrat', sans-serif;
     
+}
+
+.enlaces {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 64px;
+    gap: 12px;
 }

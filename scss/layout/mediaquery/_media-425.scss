@@ -110,8 +110,29 @@
         margin: 3px;
     }
 
+    .separador-linea {
+        width: 425px;
+    }
+    .separador-linea2{
+        display: none;
+    }
+    section.categorias {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 4em;
+        margin-top: 100px;
+    }
 
-
+    .primeras {
+        margin-top: 0px;
+    }
+    
+    img.c-imagen {
+        width: 172px;
+        height: 283px;
+    }
 
     /* NEW IN  */
 
@@ -134,5 +155,13 @@
 
     .card-newin {
     margin-bottom: 114px;
+    }
+
+    .name_clothes {
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        text-align: start;
+        margin-top: 8px;
+        color: #000000;
     }
 }

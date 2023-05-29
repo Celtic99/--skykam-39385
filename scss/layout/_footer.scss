@@ -15,7 +15,8 @@ footer{
 
 .follow{
     justify-content: center;
-    padding: 10px ;
+    padding: 1px ;
+    margin-bottom: 153px;
 }
 
 .texto h2{
@@ -77,6 +78,9 @@ footer{
     text-align: center;
 }
 
+h2 {
+    margin-top: 0px;
+}
 .box3 h3{
     font-family: 'Montserrat', sans-serif;
     color: $background-segundario;
