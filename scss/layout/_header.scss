@@ -51,11 +51,14 @@ ul li a{
     font-size: 20px;
 }
 
+.encabezado-responsive{
+    display: none;
+}
 .logo-respon{
     display: none;
 }
 
-.iconos{
+.iconos-navv{
     display: flex;
     align-items: center;
     padding-right: 30px;

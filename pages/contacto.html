@@ -14,7 +14,7 @@
         <!-- EL LOGO -->
         <div class="logo">
             <a href="../index.html">
-                <img src="../assets/img/encabezado/logo.png" alt="" class="logo" width="220">
+                <img src="../assets/img/encabezado/logo.png" alt="" class="logo">
             </a>
         </div>
         <!-- BARRRA DE NAVEGACION -->
@@ -25,68 +25,72 @@
                 <li><a href="../pages/faqs.html">FAQS</a></li>
                 <li><a href="../pages/contacto.html">CONTACTO</a></li>
             </ul>
-                <!-- MENU RESPONSIVE -->
-
+            <!-- MENU RESPONSIVE -->
+            <div class="encabezado-responsive">
+                
                 <div class="navbar-responsive">
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <img src="../assets/img/encabezado/iconos/bars.svg" alt="" class="menu-respon">
-                </label>
-
-                <ul class="menu-responsive">
-                    <li><a href="../pages/new-in.html">NEW IN</a></li>
-                    <li><a href="../pages/producto.html">PRODUCTO</a></li>
-                    <li><a href="../pages/faqs.html">FAQS</a></li>
-                    <li><a href="../pages/contacto.html">CONTACTO</a></li>
-                </ul>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <img src="../assets/img/encabezado/iconos/bars.svg" alt="" class="menu-respon">
+                    </label>
+                    
+                    <ul class="menu-responsive">
+                        <li><a href="../pages/new-in.html">NEW IN</a></li>
+                        <li><a href="../pages/producto.html">PRODUCTO</a></li>
+                        <li><a href="../pages/faqs.html">FAQS</a></li>
+                        <li><a href="../pages/contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="logo-respon">
+                    <a href="../index.html">
+                        <img src="../assets/img/encabezado/logo_phone.png" alt="logo-responsive">
+                    </a>
+                </div>
+                <div class="iconos">
+                    <img src="../assets/img/encabezado/iconos/search.png" alt="" width="25" height="25">
+                    <img src="../assets/img/encabezado/iconos/bag.png" alt="" width="40" height="40">
+                </div>
             </div>
         </nav>
-        <div class="logo-respon">
-            <a href="../index.html">
-                <img src="../assets/img/encabezado/logo_phone.png" alt="logo-responsive">
-            </a>
-        </div>
-        <div class="iconos">
+        <div class="iconos-navv">
             <img src="../assets/img/encabezado/iconos/search.png" alt="" width="25" height="25">
             <img src="../assets/img/encabezado/iconos/bag.png" alt="" width="40" height="40">
-        </div>
     </header>
-<!-- cuerpo -->
-<main>
-    <section class="enlaces">
-        <a href="../index.html"><strong>PAGINA PRINCIPAL</strong></a>
-        <img width="16" height="16" src="https://img.icons8.com/plumpy/24/chevron-right.png" alt="chevron-right"/>
-        <a href="./producto.html"><strong>CONTACTO</strong></a>
-    </section> 
+        <!-- cuerpo -->
 
-    <h2>TUVISTE PROBLEMAS CON TU COMPRA?</h2>
-    <!-- formulario -->
-    
-        <form action="" method="post">
-            <fieldset>
-                <legend><strong>DEJA TU MENSAJE</strong></legend>
-                <label for="Motivo">
-                    <span><strong>Motivo</strong></span>
-                    <input type="text" id="Motivo"> 
-                </label>
-                <label for="Nombre-completo">
-                    <span><strong>Nombre completo</strong></span>
-                    <input type="text" id="Nombre-completo"> 
-                </label>
-                <label for="Email">
-                    <span><strong>Email</strong></span>
-                    <input type="text" id="Email"> 
-                </label>
-                <label for="Telefono">
-                    <span><strong>Telefono</strong></span>
-                    <input type="text" id="Telefono"> 
-                </label>
-                
-            </fieldset>
-            <input type="SUBMIT">
-        </form>    
+        <main class="contactoss">
+            <div class="contenedor-contacto">
+                <h2>Formulario Contacto</h2>
+                <div class="contenido-contacto">
+                    <div class="info-contacto">
+                        <div class="col">
+                            <i class="icono fa-duotone fa-map-pin" style="--fa-primary-color: #ef4d4d; --fa-secondary-color: #000000;"></i>
+                            <p>Monte Castro, CABA, Arg</p>
+                        </div>
 
-</main>
+                        <div class="col">
+                            <i class="icono fa-duotone fa-map-pin" style="--fa-primary-color: #ef4d4d; --fa-secondary-color: #000000;"></i>
+                            <p>consulta@gmail.com</p>
+                        </div>
+
+                        <div class="col">
+                            <i class="icono fa-duotone fa-map-pin" style="--fa-primary-color: #ef4d4d; --fa-secondary-color: #000000;"></i>
+                            <p>11213453</p>
+                        </div>
+
+                    </div>
+
+                    <form action="" method="GET" class="formulario">
+                        <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                        <input type="text" name="correo" placeholder="Correo electronico" id="correo">
+                        <input type="text" name="asunto" placeholder="Asunto" id="asunto">
+                        <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="button" class="enviar">enviar</button>
+
+                    </form>
+                </div>
+            </div>
+        </main>
 
     <!-- pie de pagina -->
     <footer>
