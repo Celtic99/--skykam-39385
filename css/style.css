@@ -925,21 +925,37 @@ button.enviar:active::before {
 }
 @media (max-width: 320px) {
   header {
-    width: 315px;
+    width: 425px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+  .encabezado-responsive {
+    width: 295px;
     height: 70px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
-    padding: 0px 10px;
     align-content: center;
-    justify-content: flex-start;
-    gap: 40px;
-    margin: 2px 1px 1px 2px;
+    justify-content: start;
+    gap: 36px;
     border-style: solid;
     border-color: #1D1D1D;
     position: fixed;
+    margin-top: -35px;
+    margin-left: -69px;
+  }
+  nav .navbar-responsive {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+    padding: 0px 10px;
+    margin-top: -6px;
+    margin-left: 1px;
   }
   .logo {
+    display: none;
+  }
+  iconos-navv {
     display: none;
   }
   nav .navbar {
@@ -949,6 +965,7 @@ button.enviar:active::before {
     width: 20px;
     height: auto;
     margin-right: 10px;
+    margin-top: 10px;
   }
   nav .navbar-responsive {
     font-size: 1.5rem;
@@ -1012,6 +1029,54 @@ button.enviar:active::before {
   .iconos {
     margin: 0px;
   }
+  .logo-footer {
+    padding-top: 163px;
+    padding-bottom: 26px;
+    margin-right: 112px;
+  }
+  .follow {
+    justify-content: center;
+    padding: 1px;
+    margin-bottom: 153px;
+    margin-right: 106px;
+  }
+  .contenedor {
+    grid-auto-rows: 11rem;
+    gap: 60px;
+  }
+  .box1-pagos {
+    max-width: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 104px;
+    margin-top: 32px;
+    column-gap: 7.12px;
+    row-gap: 4.37px;
+  }
+  .box2-envios {
+    max-width: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 15px;
+    margin-top: 11px;
+    column-gap: 7.12px;
+    row-gap: 4.37px;
+  }
+  .col-footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 14px;
+    margin-top: 10px;
+    gap: 7px;
+  }
+  .box1 h2, .box2 h2, .box3 h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: start;
+    margin-left: 20px;
+  }
   /* NEW IN  */
   .newin-box {
     display: flex;
@@ -1030,6 +1095,10 @@ button.enviar:active::before {
   }
   .card-newin {
     margin-bottom: 114px;
+  }
+  button {
+    margin-left: 33px;
+    margin-top: 10px;
   }
 }
 
