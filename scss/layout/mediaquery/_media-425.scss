@@ -1,10 +1,9 @@
 @media all and (max-width:425px){
     /* aca tengo que modificar navbar, carrusel, banner y footer */
     header {
-        width: 0px;
+        width: 425px;
         height: 80px;
         background-color: #ffffff;
-        margin-left: 68px;
         }
 
     .encabezado-responsive {
@@ -15,16 +14,20 @@
         align-items: center;
         align-content: center;
         justify-content: start;
-        gap: 70px;
+        gap: 69px;
         border-style: solid;
         border-color: #1D1D1D;
         position: fixed;
         margin-top: -35px;
+        margin-left: -69px;
     }
     .logo{ 
         display: none;
     }
     
+    iconos-navv{
+        display: none;
+    }
     nav .navbar{
         display: none;
 
