@@ -870,7 +870,7 @@ button.enviar:active::before {
     gap: 7px;
   }
   .contenedor {
-    grid-auto-rows: 15rem;
+    grid-auto-rows: 13rem;
   }
   /* NEW IN  */
   .enlaces {
