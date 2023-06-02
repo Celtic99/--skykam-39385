@@ -81,9 +81,59 @@ footer{
 h2 {
     margin-top: 0px;
 }
+
+.texto h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: "Rubik Spray Paint", cursive;
+    color: #8b8b8b;
+    line-height: 5px;
+    margin-top: 40px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
 .box3 h3{
     font-family: 'Montserrat', sans-serif;
     color: $background-segundario;
     font-size: 15px;
     text-align: center;
+}
+
+.box1-pagos {
+    max-width: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 150px;
+    margin-top: 32px;
+    column-gap: 4px;
+    row-gap: 4px;
+    margin-left: 164px;
+}
+
+.box2-envios {
+    max-width: 299px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 35px;
+    column-gap: 1px;
+    row-gap: 4px;
+    margin-top: 1px;
+    margin-left: 62px;
+}
+
+.col-footer {
+    display: flex;
+    gap: 15px;
+    margin-left: 100px;
 }
