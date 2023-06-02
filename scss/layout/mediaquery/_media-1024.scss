@@ -1,6 +1,6 @@
 @media all and (max-width:1024px){
     header {
-        width: 1024px;
+        width: 1006px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -32,4 +32,31 @@
         flex-direction:row;
         align-content:center;
     }
+
+    .separador-linea, .separador-linea2{
+    width: 503px;
+}
+
+.contenedor{
+    grid-auto-rows: 29rem;
+    column-gap: 0px;
+}
+
+// NEW IN 
+
+.newin-box {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 200px;
+    margin-top: 0px;
+    padding: 0px 0px 0px 180px;
+}
+
+// CONTACTO
+.contenido-contacto {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
 }
