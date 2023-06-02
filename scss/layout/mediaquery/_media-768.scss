@@ -1,6 +1,6 @@
 @media all and (max-width:768px){
     header {
-        width: 768px;
+        width: 750px;
         display: flex;
         justify-content: space-around;
         padding: 12px 10px;
@@ -43,23 +43,58 @@
         align-content:center;
     }
 
+    .contenedor {
+        grid-auto-rows: 18rem;
+        column-gap: 0px;
+    }
+
+    .box1-pagos {
+        max-width: 100px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 129px;
+        margin-top: 32px;
+        column-gap: 4px;
+        row-gap: 4px;
+        margin-left: 132px;
+    }
+
+    .box2-envios {
+        max-width: 299px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 35px;
+        column-gap: 1px;
+        row-gap: 4px;
+        margin-top: 13px;
+        margin-left: 23px;
+    }
+
+    .col-footer {
+        display: flex;
+        gap: 15px;
+        margin-left: 22px;
+        margin-top: 10px;
+    }
+
      /* NEW IN */
 
     .newin-box {
         display: flex;
         flex-flow: row wrap;
-        column-gap: 50px;
+        column-gap: 113px;
         margin-top: 8px;
         justify-content: center;
         align-content: center;
         flex-direction: column;
-        padding: 0px 10px 60px 10px;
+        padding: 0px 10px 350px 10px;
     }
 
     .name_clothes{
         font-size: 20px;
         font-family: 'Montserrat', sans-serif;
-        text-align: center;
+        text-align: start;
         margin-top: 8px;
         color: #000000;
     }
