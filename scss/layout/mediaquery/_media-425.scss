@@ -4,8 +4,8 @@
         width: 0px;
         height: 80px;
         background-color: #ffffff;
-        margin-left: -3px;
-    }
+        margin-left: 68px;
+        }
 
     .encabezado-responsive {
         width: 410px;
@@ -114,6 +114,8 @@
 
     .iconos{
         margin: 3px;
+        display: flex;
+        align-items: center;
     }
 
     .separador-linea {

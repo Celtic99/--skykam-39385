@@ -588,7 +588,7 @@ button.enviar:active::before {
     width: 0px;
     height: 80px;
     background-color: #ffffff;
-    margin-left: -3px;
+    margin-left: 68px;
   }
   .encabezado-responsive {
     width: 410px;
@@ -675,6 +675,8 @@ button.enviar:active::before {
   }
   .iconos {
     margin: 3px;
+    display: flex;
+    align-items: center;
   }
   .separador-linea {
     width: 425px;
